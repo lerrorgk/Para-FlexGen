@@ -3,8 +3,8 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "flexgen"
-version = "0.1.7"
+name = "para-flexgen"
+version = "0.0.1"
 description = "Running large language models like OPT-175B/GPT-3 on a single GPU. Focusing on high-throughput large-batch generation."
 readme = "README.md"
 requires-python = ">=3.7"
@@ -18,8 +18,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/FMInference/FlexGen"
-"Bug Tracker" = "https://github.com/FMInference/FlexGen/issues"
+"Homepage" = "https://github.com/lerrorgk/Para-FlexGen"
+"Bug Tracker" = "https://github.com/lerrorgk/Para-FlexGen/issues"
 
 [tool.setuptools.packages.find]
 exclude = ["benchmark*", "dist*", "playground*", "scripts*"]
