@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "para-flexgen"
+name = "flexgen"
 version = "0.0.1"
 description = "Running large language models like OPT-175B/GPT-3 on a single GPU. Focusing on high-throughput large-batch generation."
 readme = "README.md"

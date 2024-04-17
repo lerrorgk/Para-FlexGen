@@ -253,7 +253,7 @@ def disable_hf_opt_init():
 #                 shutil.copy(param_path, param_path.replace(
 #                     "decoder.embed_tokens.weight", "lm_head.weight"))
 
-def load_opt_weights(model_name, path):
+def download_opt_weights(model_name, path):
     print(f"Load the pre-trained pytorch weights of {model_name} from local storage.")
     print("This might take a few minutes depending on the size of the model.")
 
@@ -288,5 +288,4 @@ if __name__ == "__main__":
     parser.add_argument("--path", type=str, default="~/opt_weights")
     args = parser.parse_args()
 
-    # download_opt_weights(args.model, args.path)
-    load_opt_weights(args.model, args.path)
+    download_opt_weights(args.model, args.path)
